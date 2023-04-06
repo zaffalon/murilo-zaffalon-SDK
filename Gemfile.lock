@@ -1,0 +1,27 @@
+PATH
+  remote: .
+  specs:
+    elessar (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mocha (2.0.2)
+      ruby2_keywords (>= 0.0.5)
+    power_assert (1.2.0)
+    rake (13.0.6)
+    ruby2_keywords (0.0.5)
+    test-unit (3.3.7)
+      power_assert
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  elessar!
+  mocha
+  rake
+  test-unit
+
+BUNDLED WITH
+   2.2.3
