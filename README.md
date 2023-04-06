@@ -5,6 +5,10 @@ Elessar - In the book, Elessar is a green gemstone that is a symbol of the kings
 The Elessar Ruby library provides convenient access to the The Lord of the Rings API from
 applications written in the Ruby language.
 
+## Rubygems
+
+Gem published to [Rubygems](https://rubygems.org/gems/elessar).
+
 ## Documentation
 
 See the [The Lord of the Rings API docs](https://the-one-api.dev/documentation).
