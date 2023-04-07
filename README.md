@@ -53,13 +53,16 @@ require 'elessar'
 Elessar.api_key = 'aR9j-...'
 
 # list movies
-Elessar::Movie.list()
+movies = Elessar::Movie.list()
+movie.data.docs.first.name
 
 # retrieve single movie
 movie = Elessar::Movie.retrieve('5cd95395de30eff6ebccde5b')
+movie.data.docs.first.name
 
 # list quotes
-movie.list_quotes()
+quote = movie.list_quotes()
+quote.data.docs.first.dialog
 ```
 
 ### Params
